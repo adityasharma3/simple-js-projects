@@ -8,30 +8,33 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
+
 <body>
     <h1>WE'RE LAUNCHING SOON</h1>
     
-    <input type="date" id="dateInput" value="2022-04-13">
-    <input type="button" value="date" id="datebtn">
+    <div class="date-selector">
+        <input type="date" id="dateInput" value="2022-04-13">
+        <input type="button" value="submit date" id="datebtn">
+    </div>
 
     <div class="countdown-container">
         <div class="days-container">
-            <h1 id="days_display">0</h1>
+            <h1 class = "disp" id="days_display">0</h1>
             <p>DAYS</p>
         </div>
         
         <div class="hours-container">
-            <h1 id="hours_display">0</h1>
+            <h1 class = "disp" id="hours_display">0</h1>
             <p>HOURS</p>
         </div>
 
         <div class="minutes-container">
-            <h1 id="minutes_display">0</h1>
+            <h1 class = "disp" id="minutes_display">0</h1>
             <p>MINUTES</p>
         </div>
 
         <div class="seconds-container">
-            <h1 id="seconds_display">0</h1>
+            <h1 class = "disp" id="seconds_display">0</h1>
             <p>SECONDS</p>
         </div>
     </div>
