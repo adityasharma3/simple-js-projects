@@ -77,37 +77,3 @@ footer > p> a {
     text-decoration: none;
     color: white;
 }
-
-/* ------------------------ Responsive css ------------------------------- */
-
-@media screen and (max-width:1080px) {   
-    * {
-        padding: 0;
-        margin: 0;
-    }
-
-    body {
-        background-image: url(./images/background.jfif);
-        background-repeat: no-repeat;
-    }
-
-    body > h1 {
-        text-align: center;
-        align-items: center;
-    }
-
-    body > .date-selector {
-        top: 25px;
-        position: relative;
-    }
-
-    .countdown-container {
-        display: flex;
-        margin: 0;
-    }
-
-    .countdown-container > div {
-        margin: 0;
-    }
-
-}
