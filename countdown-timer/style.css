@@ -12,7 +12,9 @@ body {
     flex-direction: column;
     justify-items: center;
     align-items: center;
+    background-color: black;
     background-image: url(./images/background.jfif);
+    background-repeat: repeat;
     background-repeat: no-repeat;
     color: white;
     height: 100%;
