@@ -19,9 +19,6 @@ function main() {
         console.log(date_input);
     });
 
-    // var display_date = document.getElementById('dateInput').value;
-    // console.log(getElementById(display_date));
-
     const time_now = new Date().getTime();
     const time_diff = Math.round(Math.floor(date_input - time_now)/1000);
 
