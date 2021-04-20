@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
     <link rel="stylesheet" href="style.css">
-    <script src="./app.js" async></script>
+    <!-- <script src="./app.js" async></script> -->
+    <script src="./script.js" defer></script>
     <link rel="icon" href="./img/icon.png">
 </head>
 <body>
@@ -14,16 +15,20 @@
 
     <div class="quiz-container">
         <div class="question-container">
-            <h3 id="question">whats up MUJ</h3>
+            <h3 id="question"></h3>
         </div>
 
-        <div class="answer-container">
-            <ul id="answers">
-            </ul>
+        <div id = "answer-container" class="answer-container">
+            <input class = "btn-ans" type="button" id = "option-a"value="">
+            <input class = "btn-ans" type="button" id = "option-b"value="">
+            <input class = "btn-ans" type="button" id = "option-c"value="">
+            <input class = "btn-ans" type="button" id = "option-d"value="">
         </div>
-
+    </div>
+    
+    <center>
         <button id="prev">previous question</button>
         <button id="next">next question</button>
-    </div>
+    </center>
 </body>
 </html>

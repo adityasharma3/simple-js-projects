@@ -8,8 +8,7 @@
 
 body {
     margin: 2% 25%;
-    /* background-image: url(./img/bg); */
-    background-color: black;
+    background-color: blueviolet;
     background-size: cover;
     color: white;
 }
@@ -22,12 +21,44 @@ body > h1 {
     margin-top: 1%;
     border: 1px solid wheat;
     padding: 5%;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 30px;
 }
 
 .quiz-container .answer-container {
     margin-top: 2%;
 }
 
-ul {
-    list-style: none;
+.question-container > h3 {
+    text-align: center;
+}
+
+.answer-container > input {
+    background-color: black;
+    color: white;
+    padding: 2%;
+    margin: 15px;
+    width: 100%;
+    display: block;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.answer-container > input[type = "button"]:hover {
+    background-color: blue;
+    transition: 0.2s ease;
+}
+
+center {
+    margin : 10px 20px;
+}
+
+center button {
+    margin : 10px 20px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
 }
