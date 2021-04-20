@@ -26,4 +26,11 @@ A repo of some short and simple js projects made for practice
     <td><a href = "https://adityasharma3.github.io/simple-js-projects/todo/">Link</a></td>
     <td><a href = "https://github.com/adityasharma3/simple-js-projects/tree/main/todo">Code</a></td>
   </tr>
+  
+  <tr>
+    <td>Quiz</td>
+    <td><a href = "https://adityasharma3.github.io/simple-js-projects/quiz/">Link</a></td>
+    <td><a href = "https://github.com/adityasharma3/simple-js-projects/tree/main/quiz">Code</a></td>
+  </tr>
+  
 </table>
