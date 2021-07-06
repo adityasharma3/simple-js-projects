@@ -33,7 +33,7 @@ const TodoForm = ({ addTodo }) => {
     }
 
     return (
-        <form 
+        <form
             onSubmit={handleSubmit}
         >
             <h1>Todo List 📓</h1>

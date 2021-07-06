@@ -1,15 +1,20 @@
 import React from 'react'
+import { ListItem , ListContainer} from '../GlobalStyles';
+
+const colors = ['purple' , 'pink' , 'green' , 'black' , 'violet'];
 
 const Todo = ({todo}) => {
     console.log(todo);
     return (
-        <div>
+        <ListContainer 
+            
+        >
             <input type="checkbox" />
-            <li id={todo.id}>
-                <p>{todo.task}</p>
-            </li>
+            <ListItem id={todo.id}>
+                <h4>{todo.task}</h4>
+            </ListItem>
             <button>X</button>
-        </div>
+        </ListContainer>
     )
 }
 
